@@ -1,0 +1,61 @@
+It specifies the size and type of value stored in variable.
+There are 2 types of data types 
+
+    -- Primitive data types 
+        These are the building blocks of data manipulation.
+        There are 8 types of primitive one.
+
+             Boolean : Use to store true or false  ( Boolean flag =true)
+                --mainly use for flags 
+                --default value is false. 
+                --size is 1 bit.
+            
+            Byte :use to store 8-bit 2's compliment integer. (byte a=-20)
+                --store from -128 to 127.
+                --defaulty value is 0.
+                -- size is 1 byte
+
+            char: use to store single unicode character
+                --char letter ='B'
+                -- \u0000 is the lowest unicode system means 0
+                -- size is 2 byte
+                -- java uses Unicode system not ASCII code system
+
+            short: use to store 16-bit signed two's complement integer.
+                --Rnage from -32768 to 32767.
+                --default is 0.
+                --size is 2byte.
+                -- short s= 543
+
+            int : use to store int values .
+                --range from -2^31 to 2^31-1.
+                --generally use as default for integer values.
+                --size 4byte 
+                -- default value is 0.
+                -- int a =5
+
+            Long : use to store long integer values 
+                --range from -2^63 to 2^63-1.
+                --size 8byte 
+                -- use when value is more than integer range.
+                -- default value is 0.
+                -- long a =5
+            
+            Float : use to store floating point number 
+                -- size is 4 byte 
+                --default is 0.0f
+                -- prefered to use over double.
+                -- The float data type should never be used for precise values, such as currency.
+
+            Double : use to store floating number just like float with double precision.
+            -- size is 8byte 
+            -- default is 0.0d
+            -- should also be not to use for precision values.
+            
+
+            
+
+
+
+    -- Non primitive data types :-
+        These are classes,interfaces, arrays, string etc. 

@@ -1,0 +1,61 @@
+
+
+import java.io.*;
+
+class practice {
+	public static void main (String[] args) {
+/*
+
+In Java, String concatenation forms a new String that is the combination of multiple strings. There are two ways to concatenate strings in Java:
+
+    By + (String concatenation) operator
+    By concat() method
+
+    In Java, String concatenation is implemented through the StringBuilder (or StringBuffer) class and it's 
+    append method. String concatenation operator produces a new String by appending the second operand onto 
+    the end of the first operand. 
+    The String concatenation operator can concatenate not only String but primitive values also
+*/
+
+
+    String s="Aditya"+" Sharma";  
+    System.out.println(s);//Aditya Sharma  
+
+
+    /* The java compiler transforms it into 
+    String s=(new StringBuilder()).append("Aditya").append(" Sharma).toString();  
+    */
+
+
+   String s=50+30+"Aditya"+40+40;  
+   System.out.println(s);//80Aditya4040  
+
+
+
+  //The String concat() method concatenates the specified string to the end of current string.
+   String s1="Aditya ";  
+   String s2="Sharma";  
+   String s3=s1.concat(s2);  
+   System.out.println(s3);//Aditya Sharma 
+
+
+
+
+    //String concatenation using stringBuilder will use append method 
+    // StringBuilder is the most popular and fastet way to concatenate strings in Java. 
+    // It is mutable class which means values stored in StringBuilder objects can be updated or changed.
+
+
+    StringBuilder s1 = new StringBuilder("Hello");   
+    StringBuilder s2 = new StringBuilder(" World");    
+    StringBuilder s = s1.append(s2);  //s is Hello World
+
+
+    String s="Sachin";    
+    System.out.println(s.toUpperCase());//SACHIN    
+    System.out.println(s.toLowerCase());//sachin    
+    System.out.println(s);//Sachin(no change in original)  
+
+
+	}
+}

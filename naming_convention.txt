@@ -1,0 +1,51 @@
+Java follows a camel-case naming convention for class,object,interfaces etc.
+    -- camel case is if name contains more than one word then other word always start with Upper case letter for the 
+    sake of better understanding.
+
+Naming conventions are there for making a code easily-readable for programmers. These suggested by java communities such as 
+sun Microsystem and Netcape.
+
+Class 
+    -- Name always start with Upper case letter like Employee.
+
+    public class Employee
+    {
+    //Code here
+    }
+
+interface
+    -- Same as of class start with upper class letter like Printable
+
+    interface Printable
+    {
+    //code here
+    }
+
+Method
+    -- should start with lower case word and follow camel-case naming convention.
+    like main, print, dosomething etc.
+
+    class Employee{
+
+         // method declaration
+
+         void dosomething(){
+            // code something
+         }
+
+    }
+
+Variable 
+    -- never use single letter instead use something that defines it's use 
+    -- should start with lower case letter like name, id etc. and later follows a camel case.
+    -- should not start with special case character like &, _ , $ , number( as 3f would be name or 
+    literal with floating point with value 3 so makes confusion)
+
+Package 
+    -- should be a lower case letter and connected with dot(.) like java.lang etc.
+
+Constants 
+    -- should be all upper case letter 
+    -- if multiple letter then join by uderscore like MAX_SCORE etc.
+    -- It may contains digits but not as first letter.
+
